@@ -29,7 +29,7 @@ const utils = {
   // 获取网络类型
   getNetType() {
     return new Promise((resolve) => {
-      if (wx.canIUse('getNetworkType')) {
+      if (true) {
         try {
           wx.getNetworkType({
             success(res) {
@@ -53,7 +53,7 @@ const utils = {
       wxSdkVersion: '',
     };
     return new Promise((resolve) => {
-      if (wx.canIUse('getSystemInfo')) {
+      if (true) {
         try {
           wx.getSystemInfo({
             success(res) {
